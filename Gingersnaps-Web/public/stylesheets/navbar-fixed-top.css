@@ -1,0 +1,50 @@
+#main-navbar {
+  position: fixed;
+  margin-bottom: 0px;
+  height: 60px;
+  min-height: 60px;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+.navbar.navbar-light.navbar-static-top .navbar-brand:hover,
+.navbar.navbar-light.navbar-static-top .navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
+}
+
+.navbar.navbar-light.navbar-static-top a:hover,
+.navbar.navbar-light.navbar-static-top a:focus {
+  background-color: transparent;
+  color: #999999;
+}
+
+.navbar-light .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu .divider {
+    background-color: #6f4e37;
+    color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav.navbar-nav li a{
+  color: white;
+}
+
+.nav.navbar-nav li a:hover{
+  color: black;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right {
+  padding-right: 25px;
+}
