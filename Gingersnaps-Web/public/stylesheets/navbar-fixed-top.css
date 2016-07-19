@@ -31,10 +31,10 @@ nav {
 
 .navbar-brand {
   color: white;
-}
-
-.nav.navbar-nav li a{
-  color: white;
+  padding-top: 18px !important;
+  font-size: 30px !important;
+  font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .nav.navbar-nav li a:hover{
@@ -43,8 +43,19 @@ nav {
 
 .nav.navbar-nav.navbar-right li a {
     color: white;
+    font-size: 20px !important;
+    padding-top: 10px;
 }
 
 .nav.navbar-nav.navbar-right {
   padding-right: 25px;
+  padding-top: 10px !important;
+}
+
+.divider-vertical {
+height: 40px;
+margin: 0 9px;
+top: 0px;
+border-left: 1px solid #F2F2F2;
+border-right: 1px solid #FFF;
 }
