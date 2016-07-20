@@ -22,6 +22,7 @@ nav {
 .navbar.navbar-light.navbar-static-top a:focus {
   background-color: transparent;
   color: #999999;
+  text-decoration: none;
 }
 
 .navbar-light .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu .divider {
@@ -54,6 +55,10 @@ nav {
   font-size: 30px !important;
   font-weight: bold;
   font-family: "Lucida Console", Monaco, monospace;
+}
+
+.navbar-brand-text a {
+  text-decoration: none;
 }
 
 .nav.navbar-nav li a:hover{
