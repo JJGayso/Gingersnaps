@@ -70,6 +70,27 @@ nav {
     padding-top: 10px;
 }
 
+.nav.navbar-nav.navbar-right li button {
+    color: white;
+    font-size: 20px !important;
+    padding-top: 7px;
+    background: none !important;
+    border: none;
+}
+
+.nav.navbar-nav.navbar-right li button {
+    color: white;
+    font-size: 20px !important;
+    padding-top: 7px;
+    background: none !important;
+    border: none;
+    outline: none !important;
+}
+
+.nav.navbar-nav.navbar-right li button:hover {
+  color: black;
+}
+
 .nav.navbar-nav.navbar-right {
   padding-right: 25px;
   padding-top: 10px !important;
