@@ -54,20 +54,13 @@ nav {
   font-size: 30px !important;
   font-weight: bold;
   font-family: "Lucida Console", Monaco, monospace;
+  background: none !important;
+  border: none;
+  outline: none !important;
 }
 
-.navbar-brand-text a {
-  text-decoration: none;
-}
-
-.nav.navbar-nav li a:hover{
+.navbar-brand button:hover{
   color: black;
-}
-
-.nav.navbar-nav.navbar-right li a {
-    color: white;
-    font-size: 20px !important;
-    padding-top: 10px;
 }
 
 .nav.navbar-nav.navbar-right li button {
