@@ -17,4 +17,10 @@ $(document).ready(function() {
       scrollTop: $("#foodMenu").offset().top - 60
     }, 1000);
   });
+
+  $("#infoButton").click(function(){
+    $('html, body').animate({
+      scrollTop: $("#info").offset().top - 60
+    }, 1000);
+  });
 });

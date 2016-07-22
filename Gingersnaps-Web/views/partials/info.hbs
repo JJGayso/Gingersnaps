@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="/stylesheets/info.css" />
+
+<div id="info" class="sectionSpacers">
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-5">
+      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+      <div style='overflow:hidden;height:440px;width:700px;'>
+        <div id='gmap_canvas' style='height:440px;width:700px;'>
+        </div>
+        <div>
+          <small>
+            <a href="http://embedgooglemaps.com">									embed google maps							</a>
+          </small>
+        </div>
+        <div>
+          <small>
+            <a href="https://termsandcondiitionssample.com">terms and conditions generator</a>
+          </small>
+        </div>
+        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+      </div>
+      <script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(39.4286768,-87.42311259999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.4286768,-87.42311259999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Gingersnaps</strong><br>3125 S 3rd Pl, Terre Haute, IN 47802<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+    <div id="contact-text" class="col-md-7">
+      <h1 class="featurette-heading">Contact and Visit Us!</h1>
+      <h3>Address: 3125 S 3rd Pl Terre Haute, IN</h3>
+      <h3>Phone: (812) 234-7627</h3>
+      <h3>Hours: Mon-Sat 9am - 7pm</h3>
+    </div>
+    </div>
+  </div>
+</div>

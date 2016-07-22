@@ -12,7 +12,38 @@
   letter-spacing: -1px;
 }
 
+#foodMenu-text {
+  margin-right: 200px;
+}
+
 #featurette-text {
-  background-color: black;
-  font-family: Chalk;
+  padding-left: 120px;
+}
+
+#featurette-text h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#foodMenu-text {
+  background-color: #F5F5F5 !important;
+  font-family: Tahoma, Geneva, sans-serif;;
+  padding-left: 20px;
+}
+
+#foodMenu-text p {
+  color: black !important;
+}
+
+.col-md-4 {
+  background-color: #F5F5F5 !important;
+}
+
+#wraps {
+    padding-left: 35px;
+}
+
+#desserts {
+  padding-left: 40px;
 }
